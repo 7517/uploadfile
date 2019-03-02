@@ -1,0 +1,23 @@
+/*.x-action-col-cell img {*/
+    /*height: 16px;*/
+    /*width: 16px;*/
+    /*cursor: pointer;*/
+/*}*/
+.project_obj {
+    background-image:url(../images/javaicon/project_obj.gif) !important;
+}
+.package_obj {
+    background-image:url(../images/javaicon/package_obj.gif) !important;
+}
+.class_obj {
+    background-image:url(../images/javaicon/class_obj.gif) !important;
+}
+.property_obj {
+    background-image:url(../images/javaicon/property_obj.gif) !important;
+}
+.service_obj{
+    background-image:url(../images/javaicon/service_obj.gif) !important;
+}
+.pom_obj {
+    background-image:url(../images/javaicon/pom_obj.gif) !important;
+}

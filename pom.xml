@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.edison.saas.bootstrap</groupId>
+    <artifactId>bootstrap-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+    <profiles>
+        <!-- 默认 -->
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+            <modules>
+
+                <!--<module>security</module>-->
+                <!--<module>security-app</module>-->
+                <module>application</module>
+                <module>monitor</module>
+                <!--<module>common</module>-->
+                <module>jms</module>
+                <!--<module>config</module>-->
+                <!--<module>application-standalone</module>-->
+                <!--<module>application</module>-->
+                <module>project</module>
+                <module>common</module>
+                <!--<module>demo</module>-->
+            </modules>
+        </profile>
+        <profile>
+            <id>security-app</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+            <modules>
+
+                <!--<module>security</module>-->
+                <module>security-app</module>
+                <module>application</module>
+                <module>monitor</module>
+                <!--<module>common</module>-->
+                <module>jms</module>
+                <!--<module>config</module>-->
+                <!--<module>application-standalone</module>-->
+                <!--<module>application</module>-->
+                <module>project</module>
+                <module>common</module>
+                <!--<module>demo</module>-->
+            </modules>
+        </profile>
+    </profiles>
+
+    <repositories>
+        <repository>
+            <id>edison-nexus-releases</id>
+            <name>Local Nexus Repository</name>
+            <url>http://120.77.246.176:8081/repository/maven-public/</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>edison-nexus-releases</id>
+            <name>Local Nexus Repository</name>
+            <url>http://120.77.246.176:8081/repository/maven-releases/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>edison-nexus-snapshots</id>
+            <name>Local Nexus Repository</name>
+            <url>http://120.77.246.176:8081/repository/maven-snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
