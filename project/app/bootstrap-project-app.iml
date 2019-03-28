@@ -9,8 +9,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="security-app" />
-    <orderEntry type="module" module-name="application-client" />
-    <orderEntry type="module" module-name="platform-model" />
+    <orderEntry type="library" name="Maven: com.edison.saas.platform.services.application:application-client:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.saas.platform.services.platform:platform-model:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.0.12.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
@@ -19,8 +19,8 @@
     <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
-    <orderEntry type="module" module-name="application-model" />
-    <orderEntry type="module" module-name="common-common" />
+    <orderEntry type="library" name="Maven: com.edison.saas.platform.services.application:application-model:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.saas.common:common-common:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.16" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.16" level="project" />

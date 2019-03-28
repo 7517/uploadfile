@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/application/bootstrap-application.iml" filepath="$PROJECT_DIR$/application/bootstrap-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/bootstrap-function-common.iml" filepath="$PROJECT_DIR$/common/bootstrap-function-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jms/bootstrap-jms.iml" filepath="$PROJECT_DIR$/jms/bootstrap-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/bootstrap-monitor.iml" filepath="$PROJECT_DIR$/monitor/bootstrap-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap-parent.iml" filepath="$PROJECT_DIR$/bootstrap-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/bootstrap-project.iml" filepath="$PROJECT_DIR$/project/bootstrap-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/app/bootstrap-project-app.iml" filepath="$PROJECT_DIR$/project/app/bootstrap-project-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/business/bootstrap-project-business.iml" filepath="$PROJECT_DIR$/project/business/bootstrap-project-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/client/bootstrap-project-client.iml" filepath="$PROJECT_DIR$/project/client/bootstrap-project-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/model/bootstrap-project-model.iml" filepath="$PROJECT_DIR$/project/model/bootstrap-project-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/web/bootstrap-project-web.iml" filepath="$PROJECT_DIR$/project/web/bootstrap-project-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/business/common-business.iml" filepath="$PROJECT_DIR$/common/business/common-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/model/common-model.iml" filepath="$PROJECT_DIR$/common/model/common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/web/common-web.iml" filepath="$PROJECT_DIR$/common/web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-app/security-app.iml" filepath="$PROJECT_DIR$/security-app/security-app.iml" />
+    </modules>
+  </component>
+</project>

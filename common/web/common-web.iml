@@ -163,7 +163,7 @@
     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.2.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-bean-validators:2.9.2" level="project" />
-    <orderEntry type="module" module-name="common-common" />
+    <orderEntry type="library" name="Maven: com.edison.saas.common:common-common:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.16" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.16" level="project" />
@@ -174,8 +174,8 @@
     <orderEntry type="module" module-name="bootstrap-monitor" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.39" level="project" />
     <orderEntry type="module" module-name="common-business" />
-    <orderEntry type="module" module-name="common-jpa" />
-    <orderEntry type="module" module-name="common-utils" />
+    <orderEntry type="library" name="Maven: com.edison.saas.common:common-jpa:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.edison.saas.common:common-utils:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:core:3.0.0" level="project" />

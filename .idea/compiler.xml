@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bootstrap-application" />
+        <module name="bootstrap-jms" />
+        <module name="bootstrap-monitor" />
+        <module name="common-business" />
+        <module name="common-model" />
+        <module name="common-web" />
+        <module name="security-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bootstrap-application" target="1.8" />
+      <module name="bootstrap-function-common" target="1.8" />
+      <module name="bootstrap-jms" target="1.8" />
+      <module name="bootstrap-monitor" target="1.8" />
+      <module name="bootstrap-parent" target="1.5" />
+      <module name="bootstrap-project" target="1.5" />
+      <module name="bootstrap-project-app" target="1.8" />
+      <module name="bootstrap-project-business" target="1.8" />
+      <module name="bootstrap-project-client" target="1.8" />
+      <module name="bootstrap-project-model" target="1.8" />
+      <module name="bootstrap-project-web" target="1.8" />
+      <module name="common-business" target="1.8" />
+      <module name="common-model" target="1.8" />
+      <module name="common-web" target="1.8" />
+      <module name="security-app" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
